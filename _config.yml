@@ -1,3 +1,4 @@
 theme: jekyll-theme-hacker
 title: [Kishan's Website]
 description: [This website lists all important commands to increase the productivity of the developer.]
+show_downloads: ["false"]
