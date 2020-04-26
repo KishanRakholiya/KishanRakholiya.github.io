@@ -5,7 +5,7 @@
 hidutil property --set '{"UserKeyMapping":[{"HIDKeyboardModifierMappingSrc":0x700000039,
 "HIDKeyboardModifierMappingDst":0x70000002A}]}'
 ```
-- Testing Another Command
+- Git Add files to Staging area and Commit those files
 ```ruby
 git add .
 git commit -m "<<Commit message>>"
