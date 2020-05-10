@@ -16,3 +16,21 @@ git rebase mainline
 git merge --squash <<branch_name>>
 git commit .
 ```
+- [Secure copy via SSH](https://linuxize.com/post/how-to-use-scp-command-to-securely-transfer-files/)
+```ruby
+scp file.txt <remote_username>@<10.10.0.2>:</remote/directory>
+scp <source_username>@<source_10.10.0.2>:</source/directory> <destination_username>@<destination_10.10.0.2>:</destination/directory>
+```
+- [tar command](https://www.tecmint.com/18-tar-command-examples-in-linux/)
+```ruby
+create: tar -cvf <<file_name>>.tar /<<location/...>>
+extract: tar -xvf <<file_name>>.tar -C <</location_to_extract>>
+```
+
+- [vim command](https://www.keycdn.com/blog/vim-commands)
+- [vim regex](http://vimregex.com/)
+```ruby
+:set nu - Sets file number
+:%s/<<pattern>>/<<replacement>>/gc - Replaces all occurrences of a pattern and confirms each one
+:set hlsearch - Highlight searched word
+```
