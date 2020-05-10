@@ -27,10 +27,9 @@ create: tar -cvf <<file_name>>.tar /<<location/...>>
 extract: tar -xvf <<file_name>>.tar -C <</location_to_extract>>
 ```
 
-- [vim command](https://www.keycdn.com/blog/vim-commands) 
+- [vim command](https://www.keycdn.com/blog/vim-commands); -[vim regex](http://vimregex.com/)
 ```ruby
 :set nu - Sets file number
 :%s/<<pattern>>/<<replacement>>/gc - Replaces all occurrences of a pattern and confirms each one
 :set hlsearch - Highlight searched word
-vim regex: http://vimregex.com/
 ```
