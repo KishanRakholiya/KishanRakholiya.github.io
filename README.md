@@ -5,7 +5,7 @@
 hidutil property --set '{"UserKeyMapping":[{"HIDKeyboardModifierMappingSrc":0x700000039,
 "HIDKeyboardModifierMappingDst":0x70000002A}]}'
 ```
-- Git Add files to Staging area and Commit those files
+- Git Add files to Staging area and Commit those files; -[Git cheatsheet](https://github.com/KishanRakholiya/KishanRakholiya.github.io/blob/master/SWTM-2088_Atlassian-Git-Cheatsheet.pdf)
 ```ruby
 git add .
 git commit -m "<<Commit message>>"
